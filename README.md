@@ -1,20 +1,29 @@
-# Balloon Pop Quest — Support Site
+# Skyloons: support site
 
-Privacy Policy, Terms & Conditions, and FAQ pages for the
-[Balloon Pop Quest](https://github.com/toobamamaniar/ballon-pop-quest) mobile
-game, served as a static site via GitHub Pages.
+Support and legal pages for [Skyloons](https://play.google.com/store/apps/details?id=com.maniar.balloonpopquest)
+(also known as Balloon Pop Quest), served as a static site through GitHub Pages
+from `main`.
 
 ## Pages
 
-- `index.html` — landing page
+- `index.html`: home page with the Google Play link and screenshots
+- `faq.html`
 - `privacy-policy.html`
 - `terms.html`
-- `faq.html`
+- `data-deletion.html`
+
+URLs of these pages are referenced from the Play Console, so keep the file
+names as they are.
 
 ## Editing
 
-Plain HTML/CSS, no build step. Edit a file and push — GitHub Pages picks up
-changes on `main` automatically. Shared styling lives in `styles.css`.
+Plain HTML and CSS, no build step. Shared styling is in `styles.css` (the
+"Paper sky" look from the app's menus). Fredoka is hosted in `fonts/`
+(SIL Open Font License, see `fonts/OFL.txt`), so the pages make no requests to
+third parties. Push to `main` and Pages publishes it.
+
+When the game changes, update the numbers and wording in the FAQ and the
+"Last updated" dates on the privacy policy, terms and data deletion pages.
 
 ## Local preview
 
